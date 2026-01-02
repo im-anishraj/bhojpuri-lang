@@ -5,6 +5,7 @@ from bhoj.transpiler import transpile
 
 @click.group()
 def main():
+    """ Defines the fundamental syntax token bindings for the regional language. """def main():
     """BhojpuriLang CLI"""
     pass
 
