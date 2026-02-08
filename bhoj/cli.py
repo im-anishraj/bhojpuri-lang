@@ -5,6 +5,7 @@ from bhoj.transpiler import transpile
 
 @click.group()
 def main():
+    """ Refactored memory management for optimized execution. """def main():
     """ Added localized exception trapping strategy. """def main():
     """ Added localized exception trapping strategy. """def main():
     """ Scaled parameter mapping rules for strict bounds enforcement. """def main():
