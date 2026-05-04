@@ -7,7 +7,7 @@
 
 **BhojpuriLang** is a fun, toy programming language that lets you write code using **Bhojpuri** keywords. It is purely logic-based, highly customizable, and runs entirely in the browser using [Pyodide](https://pyodide.org/).
 
-**[Try the Playground Live!](http://bhojpurilang.vercel.app)** *(Replace with your actual URL)*
+**[Try the Playground Live!](https://bhojpuri-lang.vercel.app/)** *(Replace with your actual URL)*
 
 ---
 
