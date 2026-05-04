@@ -1,11 +1,11 @@
-# BhojpuriLang 🚀
+# Bhojpuri-Lang 🚀
 > **Programming ab Bhojpuri mein!** (Programming now in Bhojpuri!)
 
 ![BhojpuriLang Banner](https://img.shields.io/badge/Made%20in-India-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Stable-green?style=for-the-badge)
 
-**BhojpuriLang** is a fun, toy programming language that lets you write code using **Bhojpuri** keywords. It is purely logic-based, highly customizable, and runs entirely in the browser using [Pyodide](https://pyodide.org/).
+**Bhojpuri-Lang** is a fun, toy programming language that lets you write code using **Bhojpuri** keywords. It is purely logic-based, highly customizable, and runs entirely in the browser using [Pyodide](https://pyodide.org/).
 
 **[Try the Playground Live!](https://bhojpuri-lang.vercel.app/)** *(Replace with your actual URL)*
 
