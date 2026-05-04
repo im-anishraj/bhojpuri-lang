@@ -23,10 +23,10 @@ To run BhojpuriLang locally or use the CLI:
 
 ```bash
 # Clone the repository
-git clone https://github.com/anish-devgit/bhojpurilang.git
+git clone https://github.com/anish-devgit/bhojpuri-lang.git
 
 # Navigate to the directory
-cd bhojpurilang
+cd bhojpuri-lang
 
 # Install dependencies
 pip install -r requirements.txt
