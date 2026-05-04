@@ -1,7 +1,7 @@
 # BhojpuriLang 🚀
 > **Programming ab Bhojpuri mein!** (Programming now in Bhojpuri!)
 
-![BhojpuriLang Banner](https://img.shields.io/badge/Made%20in-Bharat-orange?style=for-the-badge)
+![BhojpuriLang Banner](https://img.shields.io/badge/Made%20in-India-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Stable-green?style=for-the-badge)
 
