@@ -84,4 +84,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Crafted with ❤️ by **[@anish-devgit](https://github.com/anish-devgit)**
+Crafted with ❤️ by **[@anish-devgit](https://github.com/im-anishraj)**
