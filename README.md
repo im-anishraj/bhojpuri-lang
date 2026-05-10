@@ -1,87 +1,184 @@
-# Bhojpuri-Lang 🚀
-> **Programming ab Bhojpuri mein!** (Programming now in Bhojpuri!)
+<div align="center">
 
-![BhojpuriLang Banner](https://img.shields.io/badge/Made%20in-India-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Stable-green?style=for-the-badge)
+<br>
 
-**Bhojpuri-Lang** is a fun, toy programming language that lets you write code using **Bhojpuri** keywords. It is purely logic-based, highly customizable, and runs entirely in the browser using [Pyodide](https://pyodide.org/).
+<h1>🗣️ Bhojpuri-Lang</h1>
 
-**[Try the Playground Live!](https://bhojpuri-lang.vercel.app/)** *(Replace with your actual URL)*
+**Programming ab Bhojpuri mein! (Programming now in Bhojpuri!)**
+
+<br>
+
+A fun, esoteric programming language built to make learning parsers and interpreters approachable. Write code using Bhojpuri keywords, run it natively in the browser via Pyodide, and get scolded in Bhojpuri when your syntax is wrong (`galat ba bhai...`).
+
+<br>
+
+<a href="https://bhojpuri-lang.vercel.app/"><img src="https://img.shields.io/badge/Playground-Live-2ea44f?style=flat-square" alt="Playground Live"></a>&nbsp;
+<a href="https://github.com/im-anishraj/bhojpuri-lang"><img src="https://img.shields.io/badge/Made%20in-India-orange?style=flat-square" alt="Made in India"></a>&nbsp;
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square&labelColor=0d1117" alt="MIT"></a>&nbsp;
+<a href="https://gssoc.girlscript.tech/"><img src="https://img.shields.io/badge/GSSoC-2026-ff6b35?style=flat-square&labelColor=0d1117" alt="GSSoC 2026"></a>
+
+<br><br>
+
+<a href="https://bhojpuri-lang.vercel.app/"><b>Try the Playground Live! →</b></a>
+
+<br><br>
+
+<a href="#-quickstart">Quickstart</a>&ensp;·&ensp;<a href="#-syntax">Syntax</a>&ensp;·&ensp;<a href="#%EF%B8%8F-how-it-works">Architecture</a>&ensp;·&ensp;<a href="#-contribute">Contribute</a>
+
+</div>
+
+<br>
 
 ---
 
-## ✨ Features
-- **Native Bhojpuri Syntax**: Write `agar`, `jab tak`, `bola` instead of `if`, `while`, `print`.
-- **Zero Install**: Runs directly in the browser.
-- **Python Compatible**: Built on top of Python, so it has powerful logic capabilities.
-- **Fun Error Messages**: Get scolded in Bhojpuri if you make a mistake! (`galat ba bhai...`)
+<br>
 
-## 📦 Installation
+## 🚀 Quickstart
 
-To run BhojpuriLang locally or use the CLI:
+You don't need to install anything to try it out — just use the [Web Playground](https://bhojpuri-lang.vercel.app/). But if you want to run it locally or hack on the interpreter:
 
 ```bash
 # Clone the repository
-git clone https://github.com/anish-devgit/bhojpuri-lang.git
-
-# Navigate to the directory
+git clone https://github.com/im-anishraj/bhojpuri-lang.git
 cd bhojpuri-lang
 
-# Install dependencies
+# Install dependencies (mostly just standard Python)
 pip install -r requirements.txt
-```
 
-## 🚀 Usage
-
-### Interactive Shell (Repl)
-```bash
+# Start the interactive REPL
 python -m bhoj
 ```
 
-### Run a File
+Run a specific file:
 ```bash
 python -m bhoj examples/01_hello.bhoj
 ```
 
-## 📝 Syntax Cheat Sheet
-
-| Keyword | English/Python | Example |
-|:---|:---|:---|
-| `bhai` | Variable | `bhai x = 10` |
-| `bola` | Print | `bola "Namaste World"` |
-| `agar` | If | `agar x > 5 tab` |
-| `nahi ta` | Else | `nahi ta` |
-| `jab tak` | While | `jab tak x < 10 tab` |
-| `bas kar` | Break | `bas kar` |
-| `sahi` | True | `bhai flag = sahi` |
-| `galat` | False | `bhai flag = galat` |
-
-## 🛠️ Development
-
-### Project Structure
-- `bhoj/` - Core language implementation (Lexer, Parser, Interpreter).
-- `playground/` - The React-based web IDE.
-- `examples/` - Sample `.bhoj` programs.
-- `tests/` - Unit tests.
-
-### Running the Web Playground
-```bash
-cd playground
-npm install
-npm run dev
-```
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
-1. Fork the repo.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+<br>
 
 ---
-Crafted with ❤️ by **[@anish-devgit](https://github.com/im-anishraj)**
+
+<br>
+
+## 📝 Syntax Cheat Sheet
+
+Everything in Bhojpuri-Lang maps to standard programming logic, just with a desi twist.
+
+<table>
+  <tr>
+    <th>Bhojpuri Keyword</th>
+    <th>English / Python Equivalent</th>
+    <th>Example Code</th>
+  </tr>
+  <tr>
+    <td><code>bhai</code></td>
+    <td>Variable declaration (<code>var</code> / <code>let</code>)</td>
+    <td><code>bhai x = 10</code></td>
+  </tr>
+  <tr>
+    <td><code>bola</code></td>
+    <td>Print (<code>print()</code>)</td>
+    <td><code>bola "Namaste World"</code></td>
+  </tr>
+  <tr>
+    <td><code>agar</code></td>
+    <td>If condition (<code>if</code>)</td>
+    <td><code>agar x > 5 tab</code></td>
+  </tr>
+  <tr>
+    <td><code>nahi ta</code></td>
+    <td>Else condition (<code>else</code>)</td>
+    <td><code>nahi ta</code></td>
+  </tr>
+  <tr>
+    <td><code>jab tak</code></td>
+    <td>While loop (<code>while</code>)</td>
+    <td><code>jab tak x < 10 tab</code></td>
+  </tr>
+  <tr>
+    <td><code>bas kar</code></td>
+    <td>Break loop (<code>break</code>)</td>
+    <td><code>bas kar</code></td>
+  </tr>
+  <tr>
+    <td><code>sahi</code></td>
+    <td>Boolean True (<code>True</code>)</td>
+    <td><code>bhai flag = sahi</code></td>
+  </tr>
+  <tr>
+    <td><code>galat</code></td>
+    <td>Boolean False (<code>False</code>)</td>
+    <td><code>bhai flag = galat</code></td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+<br>
+
+## 🏗️ How it works (Under the hood)
+
+Bhojpuri-Lang isn't just a regex-replace over Python code. It is a full tree-walk interpreter written from scratch. This makes it a perfect codebase for **beginners** to learn how compilers and languages actually work.
+
+```text
+┌────────────────────────────────────────────────────────┐
+│ 1. Lexical Analysis (Lexer)                            │
+│ Reads raw string -> Breaks it into Tokens              │
+│ `bhai x = 5` -> [KEYWORD(bhai), ID(x), EQ, INT(5)]     │
+├────────────────────────────────────────────────────────┤
+│ 2. Parsing (Parser)                                    │
+│ Reads Tokens -> Builds an Abstract Syntax Tree (AST)   │
+│       (Assign)                                         │
+│       /      \                                         │
+│     (x)      (5)                                       │
+├────────────────────────────────────────────────────────┤
+│ 3. Interpretation (Interpreter)                        │
+│ Traverses AST -> Executes logic in Python memory       │
+│ Memory state: { "x": 5 }                               │
+└────────────────────────────────────────────────────────┘
+```
+
+<br>
+
+---
+
+<br>
+
+## 🤝 Contribute (GSSoC 2026)
+
+Bhojpuri-Lang is proudly participating in **[GSSoC 2026](https://gssoc.girlscript.tech/)**! 
+
+We have tons of [good first issues](https://github.com/im-anishraj/bhojpuri-lang/issues) open. You can contribute by:
+1. Adding new Bhojpuri keywords (e.g., `gin` for `for` loops).
+2. Improving the React Web Playground UI.
+3. Adding fun, custom Bhojpuri error messages to the Parser.
+4. Writing more example `.bhoj` scripts.
+
+<p align="center">
+<a href="https://github.com/im-anishraj/bhojpuri-lang/issues"><b>🐛 View Open Issues</b></a>
+</p>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+<br>
+
+**Crafted with ❤️ for the open-source community.**
+
+<br>
+
+<a href="https://github.com/im-anishraj/bhojpuri-lang/stargazers"><img src="https://img.shields.io/github/stars/im-anishraj/bhojpuri-lang?style=flat-square&logo=github&labelColor=0d1117&color=e3b341&label=stars" alt="Stars"></a>&ensp;
+<a href="https://github.com/im-anishraj/bhojpuri-lang/network/members"><img src="https://img.shields.io/github/forks/im-anishraj/bhojpuri-lang?style=flat-square&logo=github&labelColor=0d1117&color=8b949e&label=forks" alt="Forks"></a>
+
+<br>
+
+<sub>Licensed under MIT · Maintained by <a href="https://github.com/im-anishraj">@im-anishraj</a></sub>
+
+</div>
