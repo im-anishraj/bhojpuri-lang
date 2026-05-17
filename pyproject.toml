@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "bhojpurilang"
 version = "0.1.0"
 description = "A toy programming language for the Bhojpuri-speaking world"
-authors = [{name = "Antigravity", email = "antigravity@gemini.google"}]
+authors = [{name = "Anish Raj"}]
 dependencies = [
     "lark>=1.1.0",
     "click>=8.0.0",
